@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- expandable list -->
+    <dimen name="expandable_list_group_horizontal_padding">5dp</dimen>
+    <dimen name="expandable_list_child_horizontal_padding">20dp</dimen>
+    <dimen name="expandable_list_group_indicator_padding">10dp</dimen>
+    <dimen name="expandable_list_font">13sp</dimen>
+    <dimen name="expandable_list_fading_edge_length">0dp</dimen>
+    <dimen name="inner_vertical_padding_micro">3dp</dimen>
+</resources>
