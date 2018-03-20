@@ -13,33 +13,33 @@ public interface TreeNode {
      *
      * @return
      */
-    public List<? extends TreeNode> getChildren();
+    List<? extends TreeNode> getChildren();
 
     /**
      * get children count
      *
      * @return
      */
-    public int getChildCount();
+    int getChildCount();
 
     /**
      * Is this node root or not
      *
      * @return
      */
-    public boolean isRoot();
+    boolean isRoot();
 
     /**
      * Whether this node is expanded
      *
      * @return
      */
-    public boolean isExpanded();
+    boolean isExpanded();
 
     /**
      * @param isExpanded
      */
-    public void setExpanded(boolean isExpanded);
+    void setExpanded(boolean isExpanded);
 
     /**
      * Get the title of this node
@@ -47,27 +47,27 @@ public interface TreeNode {
      * @return
      */
 
-    public String getTitle();
+    String getTitle();
 
     /**
      * Get level of this node
      *
      * @return
      */
-    public int getLevel();
+    int getLevel();
 
     /**
      * Check whether the parent node is collapsed
      *
      * @return
      */
-    public boolean isParentCollapsed();
+    boolean isParentCollapsed();
 
     /**
      * If node has no child, it is leaf
      *
      * @return
      */
-    public boolean isLeaf();
+    boolean isLeaf();
 
 }

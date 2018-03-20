@@ -27,12 +27,6 @@ public class NodeData {
         }
     }
 
-    public void addChildren(List<NodeData> children) {
-        mChildren = new ArrayList<>();
-        if (children != null) {
-            mChildren.addAll(children);
-        }
-    }
 
     public void addChild(NodeData child) {
         mChildren.add(child);
@@ -52,7 +46,4 @@ public class NodeData {
     }
 
 
-    public boolean hasChildren() {
-        return mChildren.size() > 0;
-    }
 }
